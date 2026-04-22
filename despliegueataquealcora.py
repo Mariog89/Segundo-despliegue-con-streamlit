@@ -34,7 +34,7 @@ modelo,labelencoder, min_max_scaler, variables = pickle.load(open(filename, 'rb'
 data = pd.read_excel("ataque_corazon.xlsx", sheet_name=1)
 data.head()
 
-!pip install streamlit
+
 
 #Interfaz gráfica
 #Se crea interfaz gráfica con streamlit para captura de los datos
