@@ -12,7 +12,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import pickle
 
-filename = 'modelo-class.pkl'
+filename = 'modelo-class (1).pkl'
 modelo, label_encoder, variables, min_max_scaler = pickle.load(open(filename, 'rb'))
 
 import streamlit as st
