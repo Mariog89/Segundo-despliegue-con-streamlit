@@ -51,4 +51,4 @@ data
 
 # Recordar medida de error del modelo
 
-st.warning("El modelo tiene un error del 11%")
+st.warning("El modelo tiene un error del 7%")
